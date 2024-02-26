@@ -4,11 +4,15 @@ package hello.servlet.basic;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter
+@Setter
 public class HelloData {
 
     private String username;
     private int age;
+    private String clubNm;
+    private int price;
+    private int zin;
 
 
 
